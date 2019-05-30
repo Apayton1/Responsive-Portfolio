@@ -8,6 +8,7 @@ body{
     background-image:url(../images/united-squares-negative.png);
 }
 
+
 #topnav{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative;
@@ -121,26 +122,32 @@ footer{
 }
 
 @media screen and (max-width:980px){
-    footer{
-        background-color: blue;
+    main{
+        margin: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 960px;
     }
-
 }
 @media screen and (max-width:768px){
-    footer{
-        background-color: black;
+    main{
+        margin: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 748px;
     }
 
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:640px){
     header{
         position: static;
     }
     main{
-        width: 680px;
-        margin: 0;
+        width: initial;
+        margin: 15px;
+        margin-top: 50px;
+        margin-bottom: 100%;
     }
-    footer{
-        background-color: red;
     }
+
 }
